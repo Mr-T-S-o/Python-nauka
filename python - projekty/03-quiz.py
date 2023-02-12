@@ -4,5 +4,6 @@ points = 0
 
 with open("quiz.json") as json_file:
     questions = json.load(json_file)
-    
-print(questions)
+
+    for i in range(0, len(questions)):
+        print(questions[i])
